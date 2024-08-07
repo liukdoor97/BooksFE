@@ -1,0 +1,96 @@
+.mycard {
+    display: flex;
+    align-items: center;
+    background-color: #282749;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 3px solid #FF1616;
+}
+
+.book-year {
+    background-color: #282749;
+    color: #FF1616;
+    padding: 10px;
+    border-radius: 5px;
+    border: 3px solid #FF1616;
+    margin-right: 10px;
+    font-weight: bold;
+    width: 100px;
+    text-align: center;
+}
+
+.book-category {
+    background-color: #282749;
+    color: #FF1616;
+    padding: 10px 18px;
+    border-radius: 5px;
+    font-size: 0.9em;
+    margin-right: 10px;
+    width: 130px;
+    text-align: center;
+    font-weight: bold;
+    border: 3px solid #FF1616;
+}
+
+.book-side {
+    background-color: #282749;
+    color: #FF1616;
+    padding: 10px 18px;
+    border-radius: 5px;
+    font-size: 0.9em;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    border: 3px solid #FF1616;
+}
+
+.card-title {
+    flex-grow: 1;
+    font-size: 1.2em;
+    font-weight: bold;
+    color:#FF1616;
+}
+
+.border-scroll {
+    border: 1px solid #282749;
+}
+
+.grid-row {
+    display: grid;
+    grid-template-columns: 100%
+}
+
+.auto-scroll {
+    overflow-y: auto;
+}
+
+.gap-y-10 {
+    gap: 10px 0px;
+}
+
+.scrollable-list {
+    overflow-y: auto;
+    border: 1px solid #FF1616;
+    padding: 1rem;
+    max-height: 500px;
+}
+
+/* WebKit Browsers */
+.scrollable-list::-webkit-scrollbar {
+    width: 12px;
+}
+
+.scrollable-list::-webkit-scrollbar-track {
+    background: #282749;
+}
+
+.scrollable-list::-webkit-scrollbar-thumb {
+    background-color: #FF1616;
+    border-radius: 6px;
+    border: 3px solid #282749;
+}
+
+.scrollable-list::-webkit-scrollbar-thumb:hover {
+    background-color: #282749;
+}

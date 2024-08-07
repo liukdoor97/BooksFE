@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inserisci Nuova categoria</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/site.css">
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" defer></script>
+    <script src="/js/loadSidebar.js" defer></script>
+    <script src="/js/loadMenu.js" defer></script>
+    <script src="/js/loadFooter.js" defer></script>
+    <script src="/js/loadToggle.js" defer></script>
+    <script src="/js/loadAlert.js" defer></script>
+    <script src="/js/newCategory.js" defer></script>
+</head>
+
+<body>
+    <div class="d-flex" id="wrapper">
+        <div id="sidebar-container">
+            <div id="sidebar-placeholder"></div>
+        </div>
+        <div id="page-content-wrapper">
+            <div id="menu-placeholder"></div>
+            <div class="container-fluid">
+                <div class="container mt-5">
+                    <h1 class="mb-4">Nuova categoria</h1>
+                    <h3>Aggiungi una nuova categoria alla raccolta</h3>
+                    <form id="formCategory">
+                        <div class="form-group">
+                            <label for="name"></label>
+                            <input type="text" class="form-control" id="name" name="name" placeholder="Nome" required>
+                        </div>
+                        <div class="d-flex justify-content-end gap-3">
+                            <button type="reset" class="select-none button-pers btn-pers" id="ResetButton">Reset</button>
+                            <div class="select-none button-pers btn-pers" id="CreaButton">
+                               Crea
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div id="alert-placeholder"></div>
+    <div id="footer-placeholder"></div>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
